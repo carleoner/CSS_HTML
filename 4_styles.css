@@ -1,0 +1,72 @@
+/* p {
+  color: red;
+}
+
+p.error {
+  color: green;
+}
+
+p.success {
+  color: blue;
+}
+
+p.success.feedback {
+  border: 1px dashed grey;
+}
+
+div#content{
+  background-color: beige;
+  padding: 20px;
+} */
+/* 
+div .error {
+  color: purple;
+}
+
+div p {
+  border: 1px solid rgb(154, 61, 61);;
+} */
+
+/* exact link */
+/* a[href="https://wp.pl"]
+{
+  background-color: aquamarine;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+} */
+
+/* any link that includes text in brackets "" */
+/* a[href*="wp"] {
+  background-color: aquamarine;
+  color: rgb(31, 130, 216);
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+} */
+
+/* any link that ends with */
+/* a[href$=".com"] {
+  background-color: rgb(219, 255, 127);
+  color: rgb(216, 31, 145);
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+} */
+
+div {
+  color: lightcoral;
+  border: 1px solid rgb(27, 123, 206);
+  margin: 40px;
+}
+
+div p {
+  border: inherit;
+  margin: inherit;
+  color: crimson;
+}
+
+p {
+  color: yellow;
+}
