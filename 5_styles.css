@@ -182,15 +182,69 @@ article p::first-line {
   font-size: 1.2em;
 }
 
-section.join p::first-letter{
-    font-size: 1.5em;
+section.join p::first-letter {
+  font-size: 1.5em;
 }
 
-p::selection{
-    background-color: #f63232;
-    color: white;
+p::selection {
+  background-color: #f63232;
+  color: white;
 }
 
-p::after{
-    content: '...';
+p::after {
+  content: "...";
+}
+
+/* responsive styles */
+/* media queries */
+@media screen and (max-width: 1400px) {
+  .banner .welcome h2 {
+    font-size: 60px;
+  }
+  nav li {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .banner .welcome h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner .welcome {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+  }
+  .banner .welcome br {
+    display: none;
+  }
+  .banner .welcome h2 {
+    font-size: 25px;
+  }
+  .banner .welcome span {
+    font-size: 1em;
+  }
+  .images li {
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  nav li {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin: 12px 0;
+  }
+  header {
+    position: relative;
+  }
+  nav {
+    top: 0;
+  }
 }
